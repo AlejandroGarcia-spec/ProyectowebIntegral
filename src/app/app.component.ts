@@ -9,4 +9,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'erickGit';
+  constructor(){
+    console.log("nuevas funciones")
+    console.warn('cuidado')
+  }
 }
