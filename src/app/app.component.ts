@@ -10,8 +10,7 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'erickGit';
   constructor(){
-    console.log('funciones de prueba');
-    console.warn('advertencia');
-    console.log('prueba de conflictos')
+    console.log("nuevas funciones")
+    console.warn('cuidado')
   }
 }
