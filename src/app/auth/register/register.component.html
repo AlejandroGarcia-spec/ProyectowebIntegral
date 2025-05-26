@@ -1,1 +1,35 @@
-<p>register works!</p>,
+<div class="container d-flex justify-content-center align-items-center vh-100">
+  <div class="card shadow p-4" style="width: 100%; max-width: 500px;">
+    <h3 class="text-center mb-4">Crear Cuenta</h3>
+    <form>
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre completo</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Tu nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="email" placeholder="usuario@ejemplo.com" required>
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="password" placeholder="Contraseña segura" required>
+      </div>
+      <div class="mb-3">
+        <label for="confirmar" class="form-label">Confirmar contraseña</label>
+        <input type="password" class="form-control" id="confirmar" placeholder="Repite tu contraseña" required>
+      </div>
+      <div class="form-check mb-3">
+        <input class="form-check-input" type="checkbox" id="terminos" required>
+        <label class="form-check-label" for="terminos">
+          Acepto los <a href="#">términos y condiciones</a>
+        </label>
+      </div>
+      <div class="d-grid">
+        <button type="submit" class="btn btn-success">Registrarse</button>
+      </div>
+      <div class="mt-3 text-center">
+        ¿Ya tienes cuenta? <a href="#">Inicia sesión</a>
+      </div>
+    </form>
+  </div>
+</div>
